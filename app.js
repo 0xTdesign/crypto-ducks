@@ -17,7 +17,7 @@ else {
 // document.write(message);
 
 
-let mood = prompt (" How are you feeling 9 happy or sad")
+let mood = prompt (" How are you feeling happy or sad")
 let moodMessage;
 
 if (mood === "happy") {
