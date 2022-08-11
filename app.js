@@ -1,22 +1,28 @@
 
-let ducks = prompt("How many ducks you going to Mint ");
+ 
+ 
+ function getDuck() {
+ let ducks = prompt("How many ducks you going to Mint ");
 
-let message
+ let duckMessage
 
 if (ducks < 5){
-    message = "Little Duckling"
+    duckMessage = "Little Duckling"
 }
 else if (ducks > 10) {
-    message = "Duck Whale"
+    duckMessage = "Duck Whale"
 }
 
 else {
-    message = "Quack Quack "
+    duckMessage = "Quack Quack "
 }
 
-// document.write(message);
+return document.write(duckMessage + ", ");
+
+ }
 
 
+function getMood() {
 let mood = prompt (" How are you feeling happy or sad")
 let moodMessage;
 
@@ -28,5 +34,6 @@ if (mood === "happy") {
     moodMessage = "... i dont understand how you feel."
 }
 
-document.write(message + "Your're feeling"+ mood + "," + moodMessage);
+return document.write(moodMessage + " , ");
 
+}
