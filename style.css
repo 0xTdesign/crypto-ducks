@@ -159,5 +159,6 @@ right:40px;
 top:10px;
 
 }
-
-
+.duck { 
+    max-width:25px;
+}

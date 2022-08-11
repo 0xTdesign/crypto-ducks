@@ -1,7 +1,10 @@
 
  
- 
- function getDuck() {
+
+
+
+function getDuck() {
+let output = ""
  let ducks = prompt("How many ducks you going to Mint ");
 
  let duckMessage
@@ -17,23 +20,38 @@ else {
     duckMessage = "Quack Quack "
 }
 
-return document.write(duckMessage + ", ");
+for ( let i = 0;i < ducks; i++) {
+    output = output + "<img src='duck-01.png' alt='duck' class='duck'/>"
+    console.log(i)
+}
+
+return document.write(duckMessage + output);
 
  }
 
 
-function getMood() {
-let mood = prompt (" How are you feeling happy or sad")
-let moodMessage;
+// function getMood() {
+// let mood = prompt (" How are you feeling happy or sad")
+// let moodMessage;
 
-if (mood === "happy") {
-    moodMessage = "i'm pleased your're happy!";
-} else if (mood === "sad") {
-    moodMessage = "Chin up lad, We'll get you there!";
-} else {
-    moodMessage = "... i dont understand how you feel."
-}
+// if (mood === "happy") {
+//     moodMessage = "i'm pleased your're happy!";
+// } else if (mood === "sad") {
+//     moodMessage = "Chin up lad, We'll get you there!";
+// } else {
+//     moodMessage = "... i dont understand how you feel."
+// }
 
-return document.write(moodMessage + " , ");
+// return document.write(moodMessage + " , ");
 
-}
+// }
+
+/*
+
+let x = 2;
+
+if(x === 2)
+
+
+
+*/
