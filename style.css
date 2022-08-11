@@ -30,9 +30,12 @@ nav img {
 }
 
 header { 
+    border: 1px solid #895e7a ;
+    overflow: hidden;
     height:80px;
     background-color: #ffe8ae;
 }
+
 
 nav li { 
     position: relative;
@@ -50,6 +53,11 @@ nav a {
 
 nav a:hover { 
     color: #007791;
+    border: solid 5px;
+    padding: 7.5px;
+    border-radius: 15px;
+    border-color: #895E7A;
+    border-style: double
 }
 
 main { 
@@ -61,7 +69,7 @@ nav li:hover {
 }
 
 section img { 
-    width:350px;
+    width:325px;
 }
 
 section {
@@ -76,7 +84,7 @@ h1 {
 section p { 
     margin:10px;
     padding:10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
@@ -91,35 +99,57 @@ section button  {
     cursor: pointer;
     border-radius: 20px;
     padding:15px;
-    border:none;
-    border:2px solid #895e7a;
+    border: solid 5px;
+    padding: 7.5px;
+    border-radius: 15px;
+    border-color: #895E7A;
+    border-style: double
 }
 
 section button:hover { 
+    color:#ffe8ae;
     background-color: #895e7a;
 }
 
 
 footer { 
-    height: 80px;
+    border: 2px solid #895e7a ;
+    height: 110px;
     background-color: #ffe8ae;
 }
 
 footer li { 
+    padding:5px;
     color: #895e7a;
     margin:20px;
     float: right;
-display: inline-block;
+    display: inline-block;
+    border: solid 5px;
+    padding: 7.5px;
+    border-radius: 15px;
+    border-color: #895E7A;
+    border-style: double;  
+
+    
     
 }
 
 footer a { 
-    position: relative;
-    top:40px;
-    margin:10px;
     text-decoration: none;
-    color:#895e7a
+    color: #895E7A;
+    position: relative;
+    top:50px;
+    margin-left: 10px;
+    border: solid 5px;
+    padding: 7.5px;
+    border-radius: 15px;
+    border-color: #895E7A;
+    border-style: double;    
 
+}
+
+footer li:hover { 
+    color:#007791
 }
 
 section h2 { 
